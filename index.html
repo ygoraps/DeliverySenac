@@ -18,8 +18,23 @@
             ingredientes: ['Frango', 'Catupiry', 'Muçarela'],
             valor: 40.00,
         };
+        let pizza3 = {
+            nome: 'Portuguesa',
+            ingredientes: ['Presunto', 'Ovos cozidos', 'Cebola', 'Azeitonas', 'Muçarela'],
+            valor: 40.00,
+        };
+        let pizza4 = {
+            nome: 'Quatro Queijos',
+            ingredientes: ['Muçarela', 'Queijo parmesão', 'Queijo gorgonzola', 'Queijo provolone'],
+            valor: 40.00,
+        };
+        let pizza5 = {
+            nome: 'Margherita',
+            ingredientes: ['Muçarela', 'Tomate fresco', 'Manjericão'],
+            valor: 35.00,
+        };
 
-        let cardapio = [pizza1, pizza2];
+        let cardapio = [pizza1, pizza2, pizza3, pizza4, pizza5];
         console.log('Cardápio da pizzaria Senac:')
         cardapio.forEach((pizza) => {
             console.log(`${pizza.nome} valor: ${pizza.valor.toFixed(2)}`)
