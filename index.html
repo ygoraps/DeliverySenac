@@ -7,5 +7,23 @@
 </head>
 <body>
     <h1>Delivery Senac</h1>
+    <script>
+        let pizza1 = {
+            nome: 'Calabresa',
+            ingredientes: ['Calabresa', 'Cebola', 'Muçarela'],
+            valor: 35.00,
+        };
+        let pizza2 = {
+            nome: 'Frango com Catupiry',
+            ingredientes: ['Frango', 'Catupiry', 'Muçarela'],
+            valor: 40.00,
+        };
+
+        let cardapio = [pizza1, pizza2];
+        console.log('Cardápio da pizzaria Senac:')
+        cardapio.forEach((pizza) => {
+            console.log(`${pizza.nome} valor: ${pizza.valor.toFixed(2)}`)
+        });
+    </script>
 </body>
 </html>
